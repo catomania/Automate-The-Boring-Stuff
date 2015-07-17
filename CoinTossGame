@@ -1,7 +1,5 @@
-
 #! python3
 # cointossgame.py cointoss exercise in Chapter 10 of Automate the Boring Stuff
-#literally there is no way to lose...
 
 import random
 
