@@ -1,0 +1,28 @@
+#cointoss exercise in Chapter 10 of Automate the Boring Stuff
+#literally there is no way to lose...
+
+import random
+
+guess = ''
+
+while guess not in ('heads', 'tails'): 
+    guess = input('Guess the coin toss! Heads or tails? ')
+
+
+toss = random.randint(0, 1) #0 is tails, 1 is heads
+
+if toss == 0:
+    toss = 'tails'
+else:
+    toss = 'heads'
+
+if toss == guess:
+    print('you got it!')
+else:
+    print('Nope! try again!')
+    guess = input('Try your guess again! ')
+    if toss == guess:
+        print('you got it!')
+    else:
+        print('Nope! You are really bad at this game!')
+    
