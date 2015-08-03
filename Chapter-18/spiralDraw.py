@@ -1,7 +1,7 @@
 #! python3
 # spiralDraw.py - make a fun spiral!
-# note: I keep on getting a WinError5 message when I try to run this..weird!
-
+# note: I keep on getting a WinError5 message when I try to run this..weird! It looks like I can't actually write any 
+# code that contains pyautogui.dragRel without getting an error message
 import pyautogui, time
 
 time.sleep(5) #gives you time to move your mouse
